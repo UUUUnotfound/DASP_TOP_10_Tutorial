@@ -1,5 +1,5 @@
 ---
-title: Access Control
+title: Front Running
 date: 2018-06-22 05:46:28
 tags:
 ---
@@ -247,7 +247,7 @@ cd DASP_TOP_10_Tutorial/07.Front_Running/Front_Running
 打开新窗口
 `/geth_attach.sh`
 
-![](images/20180627092104277.png)
+
 
 我们本地已经初始化了两个账户:
 
