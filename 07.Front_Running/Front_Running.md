@@ -34,25 +34,27 @@ tags:
 
 ### 环境依赖
 ```
-cat /etc/issue
-#Ubuntu 16.04.3 LTS
+#cat /etc/issue
+Ubuntu 16.04.3 LTS
 
-node --version
-#v10.2.1
+#geth version
+Geth
+Version: 1.8.10-stable
+Git Commit: eae63c511ceafab14b92e274c1b18bf1700e2d3d
+Architecture: amd64
+Protocol Versions: [63 62]
+Network Id: 1
+Go Version: go1.10
+Operating System: linux
+GOPATH=
+GOROOT=/usr/lib/go-1.10
 
-truffle version
-#Truffle v4.1.11 (core: 4.1.11)
-#Solidity v0.4.24 (solc-js)
 ```
 ### 环境安装
 ```
-sudo apt-get install nodejs
-sudo apt install nodejs-legacy
-sudo apt install npm
-sudo npm install n -g
-sudo n stable
-
-npm install -g truffle
+sudo add-apt-repository -y ppa:ethereum/ethereum
+sudo apt-get update
+sudo apt-get install ethereum
 ```
 ### 相关配置文件/代码
 
