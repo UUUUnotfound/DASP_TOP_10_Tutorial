@@ -247,7 +247,7 @@ cd DASP_TOP_10_Tutorial/07.Front_Running/Front_Running
 ![](images/20180627092104277.png)
 
 打开新窗口
-`/geth_attach.sh`
+`./geth_attach.sh`
 
 ![](images/20180627151353289.png)
 
