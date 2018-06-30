@@ -105,7 +105,7 @@ contract FrontRunning{
         // 本合约的默认问题
         Number = 21430243648696319834371;//1516416161611*14132165161
     }
-    //能够回答出两个数乘积等于Number烦人就可以成为新onwer,并且修改问题
+    //能够回答出两个数乘积等于Number的人就可以成为新onwer,并且修改问题
     function changeOwner(uint prime1,uint prime2, uint new_number)
         public
     {
@@ -289,7 +289,7 @@ cd DASP_TOP_10_Tutorial/07.Front_Running/Front_Running
 >
 >[DASP - TOP 10](https://www.dasp.co/)
 >
->[github:not-so-smart-contracts/reentrancy](https://github.com/trailofbits/not-so-smart-contracts/tree/master/reentrancy)
+>[github:not-so-smart-contracts/race_condition](https://github.com/trailofbits/not-so-smart-contracts/tree/master/race_condition)
 >
 >[以太坊智能合约安全入门了解一下（下）](http://rickgray.me/2018/05/26/ethereum-smart-contracts-vulnerabilities-review-part2/#7-Front-Running-提前交易)
 
